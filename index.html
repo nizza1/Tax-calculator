@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tax-cal</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+    <section>
+        <article>
+            <form action="" onsubmit="return false">
+
+                <h1>Einkommenssteuerrechner</h1>
+
+                <h2>* Soll die Berechnung für Sie als Einzelperson, oder im Splittingverfahren erfolgen</h2>
+
+
+                <input type="radio" id="singelPerson" name="personen" checked>
+                <label for="singelPerson">Singel</label>
+                <input type="radio" id="paar" name="personen" >
+                <label for="paar">Splittingverfahren</label>
+
+                <input type="number" id="gesamtEinkommen" name="gesamtEinkommen" placeholder="Ihre gesamte Einkommen" min="0">
+
+                <button onclick="berechnen()" class="berechnen">Berechnen</button>
+
+                <p >
+                    Einkommensteuer für das Jahr <br><span id="einkommensteuerOutput"></span></p>
+
+
+
+
+
+
+            </form>
+        </article>
+    </section>
+    <script src="./assets/javascript/main.js"></script>
+</body>
+</html>

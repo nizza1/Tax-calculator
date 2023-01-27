@@ -1,0 +1,53 @@
+
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+}
+
+
+section {
+    margin: 200px auto ;
+    width: 400px;
+    text-align: center;
+}
+article {
+    background-color: rgb(194, 193, 255);
+    padding: 0.6em 0.6em;
+    border-radius: 1em;
+}
+
+h1 {
+    font-size: 1.7em;
+    background-color: aliceblue;
+    padding: 1em 0.5em;
+    border-radius: 0.6em 0.6em 0 0;
+}
+
+h2 {
+    font-size: 1em;
+    max-width: 25ch;
+}
+
+button {
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 0.5em 1.7em; 
+    border-radius: 2em;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+input {
+    border: none;
+    padding: 1em;
+}
